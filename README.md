@@ -12,74 +12,66 @@ Photo by <a href="https://unsplash.com/@ventiviews?utm_content=creditCopyText&ut
  <h2>Problem Statement</h1>
 
 <br>
-The dataset originates from an ongoing cardiovascular study involving residents of Framingham, Massachusetts. Its primary aim is to predict whether a patient faces a 10-year risk of developing coronary heart disease (CHD). Comprising over 4000 records and 15 attributes, each attribute represents a potential risk factor, encompassing demographic, behavioral, and medical aspects..<br>
+The task at hand revolves around delving into the Netflix dataset to extract insights into the platform's content. This dataset encompasses details about both movies and TV shows, including their attributes and availability across different regions. By merging this dataset with external sources such as IMDB ratings and Rotten Tomatoes, we can unlock further valuable insights..<br>
 <br>
 <h2>Project Summary</h1>
 
   <br>
-Tasked with analyzing a dataset from a cardiovascular study in Framingham, Massachusetts, comprising 3,390 rows and 17 features, my objective was to develop a model capable of predicting a patient's 10-year risk of coronary heart disease. Despite the absence of duplicate values, the dataset did contain some missing data in certain features, albeit at a manageable percentage. The features furnished valuable patient information, encompassing age, education, gender, smoking status, as well as health-related metrics such as cholesterol levels, diabetes status, blood pressure, BMI, glucose levels, and heart rate.<br>
-<br>
-  <br>
-<h2>Project Steps</h1>
+The specific objectives of this project are as follows:
 
-  <br>
-1.  Data Preprocessing:
-<br>
-  <br>
- <ul>
- <li>Imputed missing values by employing median or mode imputation based on feature distributions. </li>
-  <li>Categorized features into categorical, discrete, and continuous.</li>
-  <li>Opted not to address outliers, considering the health-oriented nature of the problem and the dataset's scale.</li>
-</ul>
-  <br>
-   <br>
-2. Exploratory Data Analysis (EDA):
-<br>
-   <br>
-   <ul>
-  <li>Conducted comprehensive EDA, comprising univariate, bivariate, and multivariate analyses.</li>
-  <li>Unearthed insights regarding gender and smoking prevalence, diabetes rates, hypertension prevalence, and age distributions.</li>
-  <li>Identified correlations between features and their potential impact on CHD risk.</li>
-</ul>
- <br>
-   <br>
-3. Feature Engineering:
-<br>
-   <br>
-    <ul>
-<li>Applied label encoding for categorical features.</li>
-<li>Introduced novel features like pulse_pressure, smoking_status, and diabetic_status.</li>
-<li>Calculated the Variance Inflation Factor (VIF) to gauge multicollinearity.</li>
-<li>Selected pivotal features for further analysis.</li>
-</ul>
-  <br>
-   <br>
-4. Handling Imbalanced Data:
-<br>
-   <br>
-   <ul>
-<li>Mitigated dataset imbalance using SMOTE (Synthetic Minority Over-sampling Technique).</li>
-    </ul>
-  <br>
-   <br>
-5. Model Selection and Training:
-<br>
-   <br>
-    <ul>
-<li>Partitioned the data into training and testing subsets.</li>
-<li>Trained diverse machine learning models, including Logistic Regression, K-Nearest Neighbors, Random Forest, Naive Bayes, and XGBoost.</li>
-<li>Evaluated model performance using accuracy, precision, recall, F1-score, and AUC metrics.</li>
-<li>Tuned hyperparameters via GridSearchCV.</li>
-   </ul>  
-  <br>
-   <br>
-<h2>Model Conclusion</h1>
+Exploratory Data Analysis (EDA): Clean the dataset, unpack the Netflix content, address null/missing values, and conduct a comprehensive analysis to unveil trends, patterns, and correlations among various attributes.
+Understanding Content Availability: Identify the types of content available across different countries and discern any variations or preferences.
+Analyzing Netflix's Focus: Explore whether Netflix has shown a tendency towards prioritizing TV shows over movies in recent times.
+Clustering Similar Content: Utilize text-based features to group similar content, paving the way for the development of a content-based recommender system.
+Project Summary
+Problem Statement:
+This project centers on a dataset comprising TV shows and movies available on Netflix as of 2019, sourced from Flixable, a third-party Netflix search engine. Over recent years, Netflix has undergone a notable shift, witnessing a significant rise in TV shows while the number of movies has declined. The aim is to extract meaningful insights from this dataset and explore potential synergies with external datasets such as IMDB ratings and Rotten Tomatoes.
 
-   <br>
-    <ul>
-<li>Among all models, XGBoost emerged as the top performer.</li>
-<li>Post extensive hyperparameter tuning, the XGBoost model achieved remarkable accuracy, recording 99% on the training set and 94% on the test set.</li>
-<li>Key hyperparameters encompassed 'gamma': 0, 'learning_rate': 0.1, 'max_depth': 5, and 'n_estimators': 300.</li>
-<li>The model accurately predicted 518 class 0 patients and 509 class 1 patients out of 1152 patients, with 90 false negatives and 35 false positives.</li>
-</ul> 
+Project Summary:
+The aim of this project is to analyze a dataset containing TV shows and movies available on Netflix as of 2019, obtained from Flixable, a third-party Netflix search engine. The dataset consists of 7,787 rows and 12 columns, with no duplicate entries. However, several features exhibit missing values. It provides crucial information about content types (TV show or movie), titles, directors, casts, production countries, Netflix addition dates, release dates, durations, ratings, and descriptions.
+
+The project follows a structured approach, outlined below:
+
+Addressing Missing Values:
+Rectify any null or missing values present in the dataset.
+
+Handling Nested Columns:
+Process nested columns like director, cast, listed_in, and country to facilitate clear visualization and analysis.
+
+Rating Categorization:
+Categorize ratings into suitable categories such as adult, children's, family-friendly, and unrated content.
+
+Exploratory Data Analysis (EDA):
+Conduct thorough EDA on various attributes, unearthing valuable insights to aid in churn prevention.
+
+Cluster Formation:
+Form clusters using attributes like director, cast, country, genre, rating, and description. Tokenize, preprocess, and vectorize attribute values using TF-IDF vectorizer.
+
+Dimensionality Reduction:
+Reduce dataset dimensionality using Principal Component Analysis (PCA) to enhance performance.
+
+Clustering Algorithms:
+Employ K-Means Clustering and Agglomerative Hierarchical Clustering algorithms to construct two distinct cluster types. Determine the optimal number of clusters using techniques like the Elbow method, Silhouette score, and Dendrogram.
+
+Content-Based Recommender System:
+Develop a content-based recommender system using the cosine similarity matrix. This system analyzes the user's watched shows and generates personalized recommendations to enrich their experience.
+
+EDA Findings
+Movies constitute approximately 69.1% of the content, with TV shows comprising around 30.9%.
+The content is predominantly aimed at adults and teenagers, with no TV shows rated for general audiences.
+Most movies have a duration of 90 to 120 minutes, while TV shows typically consist of a single season.
+Netflix witnessed a significant surge in content additions post-2015, peaking in November 2019 for both TV shows and movies.
+Content is frequently added on the 1st and 15th of each month.
+There's been a consistent uptrend in content releases, particularly post-2008, with notable declines in 2018 and 2020.
+International movies and TV shows are the most popular genres, followed by dramas and comedies.
+The USA leads in content production, trailed by India and the United Kingdom.
+Noteworthy directors include Jan Suter, Raul Campos, Jay Karas, Alastair Fothergill, and Ken Burns.
+Renowned cast members include Anupam Kher, Shah Rukh Khan, Naseeruddin Shah, Takahiro Sakurai, Yuki Kaji, and Daisuke Ono.
+Most top-producing countries generate adult-oriented content, except India, which leans towards content suitable for teenagers.
+Common words in descriptions include family, friend, life, find, two, take, world, woman, live, and love.
+Machine Learning Conclusion:
+I applied K-Means and Hierarchical Agglomerative clustering techniques to cluster the dataset.
+K-Means with 5 clusters was chosen as the final model due to well-defined clusters and a high Silhouette score.
+The Silhouette score served as the evaluation metric, indicating the quality of clusters.
+Additionally, I developed a recommendation system for personalized content suggestions based on similarity scores.
 </h3>
