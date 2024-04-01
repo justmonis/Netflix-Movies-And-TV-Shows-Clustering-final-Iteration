@@ -9,14 +9,9 @@ Photo by <a href="https://unsplash.com/@ventiviews?utm_content=creditCopyText&ut
 
 <h3 align="Left">
 <br>
- <h2>Problem Statement</h1>
+Problem Statement
+The task at hand revolves around delving into the Netflix dataset to extract insights into the platform's content. This dataset encompasses details about both movies and TV shows, including their attributes and availability across different regions. By merging this dataset with external sources such as IMDB ratings and Rotten Tomatoes, we can unlock further valuable insights.
 
-<br>
-The task at hand revolves around delving into the Netflix dataset to extract insights into the platform's content. This dataset encompasses details about both movies and TV shows, including their attributes and availability across different regions. By merging this dataset with external sources such as IMDB ratings and Rotten Tomatoes, we can unlock further valuable insights..<br>
-<br>
-<h2>Project Summary</h1>
-
-  <br>
 The specific objectives of this project are as follows:
 
 Exploratory Data Analysis (EDA): Clean the dataset, unpack the Netflix content, address null/missing values, and conduct a comprehensive analysis to unveil trends, patterns, and correlations among various attributes.
@@ -74,4 +69,3 @@ I applied K-Means and Hierarchical Agglomerative clustering techniques to cluste
 K-Means with 5 clusters was chosen as the final model due to well-defined clusters and a high Silhouette score.
 The Silhouette score served as the evaluation metric, indicating the quality of clusters.
 Additionally, I developed a recommendation system for personalized content suggestions based on similarity scores.
-</h3>
