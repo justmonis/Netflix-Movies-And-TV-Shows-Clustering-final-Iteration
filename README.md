@@ -19,23 +19,25 @@ The task at hand revolves around delving into the Netflix dataset to extract ins
 
   <br>
 1.  EDA(Exploratory Data Analysis:
-<br>
- <br>
+
+
  Clean the dataset, unpack the Netflix content, address null/missing values, and conduct a comprehensive analysis to unveil trends, patterns, and correlations among various attributes.
   <br>
 2.  Understanding Content Availability
-<br>
- <br> 
+
+
  Identify the types of content available across different countries and discern any variations or preferences.
-   <br>
+ 
     <br>
-3.  Analyzing Netflix's Focus:
-<br>
+3.  Analyzing Netflix's Focus
+
 Explore whether Netflix has shown a tendency towards prioritizing TV shows over movies in recent times.
     <br>
 4.  Clustering Similar Content: 
-<br>
+
 Utilize text-based features to group similar content, paving the way for the development of a content-based recommender system.
+<br>
+<br>
 Project Summary
 Problem Statement:
 This project centers on a dataset comprising TV shows and movies available on Netflix as of 2019, sourced from Flixable, a third-party Netflix search engine. Over recent years, Netflix has undergone a notable shift, witnessing a significant rise in TV shows while the number of movies has declined. The aim is to extract meaningful insights from this dataset and explore potential synergies with external datasets such as IMDB ratings and Rotten Tomatoes.
