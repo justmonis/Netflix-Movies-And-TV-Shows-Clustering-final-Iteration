@@ -10,31 +10,22 @@ Photo by <a href="https://unsplash.com/@ventiviews?utm_content=creditCopyText&ut
 <h3 align="Left">
   <br>
  <h2>Problem Statement</h1>
-
 <br>
-
 The task at hand revolves around delving into the Netflix dataset to extract insights into the platform's content. This dataset encompasses details about both movies and TV shows, including their attributes and availability across different regions. By merging this dataset with external sources such as IMDB ratings and Rotten Tomatoes, we can unlock further valuable insights.
 
 <h2>Project Steps</h1>
 
   <br>
-1.  EDA(Exploratory Data Analysis:
-
-
- Clean the dataset, unpack the Netflix content, address null/missing values, and conduct a comprehensive analysis to unveil trends, patterns, and correlations among various attributes.
-  <br>
-2.  Understanding Content Availability
-
-
- Identify the types of content available across different countries and discern any variations or preferences.
- 
-    <br>
-3.  Analyzing Netflix's Focus
-
+1. EDA(Exploratory Data Analysis:
+Clean the dataset, unpack the Netflix content, address null/missing values, and conduct a comprehensive analysis to unveil trends, patterns, and correlations among various attributes.
+<br>
+2. Understanding Content Availability
+Identify the types of content available across different countries and discern any variations or preferences.
+<br>
+3. Analyzing Netflix's Focus
 Explore whether Netflix has shown a tendency towards prioritizing TV shows over movies in recent times.
-    <br>
-4.  Clustering Similar Content: 
-
+<br>
+4. Clustering Similar Content: 
 Utilize text-based features to group similar content, paving the way for the development of a content-based recommender system.
 <br>
 <br>
