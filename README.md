@@ -17,18 +17,22 @@ The task at hand revolves around delving into the Netflix dataset to extract ins
 
   <br>
 1. EDA(Exploratory Data Analysis:
+<br>
 Clean the dataset, unpack the Netflix content, address null/missing values, and conduct a comprehensive analysis to unveil trends, patterns, and correlations among various attributes.
 <br>
 <br>
-2. Understanding Content Availability
+2. Understanding Content Availability:
+<br>
 Identify the types of content available across different countries and discern any variations or preferences.
 <br>
 <br>
-3. Analyzing Netflix's Focus
+3. Analyzing Netflix's Focus:
+<br>
 Explore whether Netflix has shown a tendency towards prioritizing TV shows over movies in recent times.
 <br>
 <br>
-4. Clustering Similar Content: 
+4. Clustering Similar Content:
+<br>
 Utilize text-based features to group similar content, paving the way for the development of a content-based recommender system.
 <br>
 <br>
