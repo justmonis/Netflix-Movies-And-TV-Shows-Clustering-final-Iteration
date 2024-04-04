@@ -76,8 +76,9 @@ Employ K-Means Clustering and Agglomerative Hierarchical Clustering algorithms t
 <li>Content-Based Recommender System:
 Develop a content-based recommender system using the cosine similarity matrix. This system analyzes the user's watched shows and generates personalized recommendations to enrich their experience.</li>
 </ul>
-
-EDA Findings
+  <br>
+ <h2>EDA Findings</h1>
+<br>
 Movies constitute approximately 69.1% of the content, with TV shows comprising around 30.9%.
 The content is predominantly aimed at adults and teenagers, with no TV shows rated for general audiences.
 Most movies have a duration of 90 to 120 minutes, while TV shows typically consist of a single season.
@@ -90,7 +91,9 @@ Noteworthy directors include Jan Suter, Raul Campos, Jay Karas, Alastair Fotherg
 Renowned cast members include Anupam Kher, Shah Rukh Khan, Naseeruddin Shah, Takahiro Sakurai, Yuki Kaji, and Daisuke Ono.
 Most top-producing countries generate adult-oriented content, except India, which leans towards content suitable for teenagers.
 Common words in descriptions include family, friend, life, find, two, take, world, woman, live, and love.
-Machine Learning Conclusion:
+  <br>
+ <h2>Machine Learning Findings</h1>
+<br>
 I applied K-Means and Hierarchical Agglomerative clustering techniques to cluster the dataset.
 K-Means with 5 clusters was chosen as the final model due to well-defined clusters and a high Silhouette score.
 The Silhouette score served as the evaluation metric, indicating the quality of clusters.
