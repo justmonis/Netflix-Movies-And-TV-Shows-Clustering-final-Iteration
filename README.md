@@ -78,7 +78,7 @@ Develop a content-based recommender system using the cosine similarity matrix. T
 </ul>
   <br>
  <h2>EDA Findings</h1>
-<br>
+
 Movies constitute approximately 69.1% of the content, with TV shows comprising around 30.9%.
 The content is predominantly aimed at adults and teenagers, with no TV shows rated for general audiences.
 Most movies have a duration of 90 to 120 minutes, while TV shows typically consist of a single season.
@@ -93,7 +93,7 @@ Most top-producing countries generate adult-oriented content, except India, whic
 Common words in descriptions include family, friend, life, find, two, take, world, woman, live, and love.
   <br>
  <h2>Machine Learning Findings</h1>
-<br>
+
 I applied K-Means and Hierarchical Agglomerative clustering techniques to cluster the dataset.
 K-Means with 5 clusters was chosen as the final model due to well-defined clusters and a high Silhouette score.
 The Silhouette score served as the evaluation metric, indicating the quality of clusters.
