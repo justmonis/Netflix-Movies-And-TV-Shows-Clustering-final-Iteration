@@ -38,8 +38,7 @@ Utilize text-based features to group similar content, paving the way for the dev
 </ul>
 <br>
   <br>
- <h2>Project Summary</h1>
-<br>
+
 <br>
  <h2>Problem Statement:</h1>
 
