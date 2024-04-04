@@ -50,7 +50,7 @@ This project centers on a dataset comprising TV shows and movies available on Ne
 The aim of this project is to analyze a dataset containing TV shows and movies available on Netflix as of 2019, obtained from Flixable, a third-party Netflix search engine. The dataset consists of 7,787 rows and 12 columns, with no duplicate entries. However, several features exhibit missing values. It provides crucial information about content types (TV show or movie), titles, directors, casts, production countries, Netflix addition dates, release dates, durations, ratings, and descriptions.
 
 The project follows a structured approach, outlined below:
-
+<ul>
 <li>Addressing Missing Values:
 Rectify any null or missing values present in the dataset.</li>
 
@@ -74,6 +74,7 @@ Employ K-Means Clustering and Agglomerative Hierarchical Clustering algorithms t
 
 <li>Content-Based Recommender System:
 Develop a content-based recommender system using the cosine similarity matrix. This system analyzes the user's watched shows and generates personalized recommendations to enrich their experience.</li>
+</ul>
 
 EDA Findings
 Movies constitute approximately 69.1% of the content, with TV shows comprising around 30.9%.
