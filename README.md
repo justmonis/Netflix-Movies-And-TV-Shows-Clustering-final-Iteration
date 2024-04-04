@@ -8,8 +8,11 @@ Photo by <a href="https://unsplash.com/@ventiviews?utm_content=creditCopyText&ut
   
 
 <h3 align="Left">
+  <br>
+ <h2>Problem Statement</h1>
+
 <br>
-Problem Statement
+
 The task at hand revolves around delving into the Netflix dataset to extract insights into the platform's content. This dataset encompasses details about both movies and TV shows, including their attributes and availability across different regions. By merging this dataset with external sources such as IMDB ratings and Rotten Tomatoes, we can unlock further valuable insights.
 
 The specific objectives of this project are as follows:
