@@ -15,7 +15,7 @@ The task at hand revolves around delving into the Netflix dataset to extract ins
 
 <h2>Project Steps</h1>
 
-  <br>
+<br>
 <li>EDA(Exploratory Data Analysis:
 <br>
 Clean the dataset, unpack the Netflix content, address null/missing values, and conduct a comprehensive analysis to unveil trends, patterns, and correlations among various attributes.</li>
@@ -36,38 +36,44 @@ Explore whether Netflix has shown a tendency towards prioritizing TV shows over 
 Utilize text-based features to group similar content, paving the way for the development of a content-based recommender system.</li>
 <br>
 <br>
-Project Summary
-Problem Statement:
+  <br>
+ <h2>Project Summary</h1>
+<br>
+<br>
+ <h2>Problem Statement:</h1>
+<br>
 This project centers on a dataset comprising TV shows and movies available on Netflix as of 2019, sourced from Flixable, a third-party Netflix search engine. Over recent years, Netflix has undergone a notable shift, witnessing a significant rise in TV shows while the number of movies has declined. The aim is to extract meaningful insights from this dataset and explore potential synergies with external datasets such as IMDB ratings and Rotten Tomatoes.
 
-Project Summary:
+  <br>
+ <h2>Project Summary</h1>
+<br>
 The aim of this project is to analyze a dataset containing TV shows and movies available on Netflix as of 2019, obtained from Flixable, a third-party Netflix search engine. The dataset consists of 7,787 rows and 12 columns, with no duplicate entries. However, several features exhibit missing values. It provides crucial information about content types (TV show or movie), titles, directors, casts, production countries, Netflix addition dates, release dates, durations, ratings, and descriptions.
 
 The project follows a structured approach, outlined below:
 
-Addressing Missing Values:
-Rectify any null or missing values present in the dataset.
+<li>Addressing Missing Values:
+Rectify any null or missing values present in the dataset.</li>
 
-Handling Nested Columns:
-Process nested columns like director, cast, listed_in, and country to facilitate clear visualization and analysis.
+<li>Handling Nested Columns:
+Process nested columns like director, cast, listed_in, and country to facilitate clear visualization and analysis.</li>
 
-Rating Categorization:
-Categorize ratings into suitable categories such as adult, children's, family-friendly, and unrated content.
+<li>Rating Categorization:
+Categorize ratings into suitable categories such as adult, children's, family-friendly, and unrated content.</li>
 
-Exploratory Data Analysis (EDA):
-Conduct thorough EDA on various attributes, unearthing valuable insights to aid in churn prevention.
+<li>Exploratory Data Analysis (EDA):
+Conduct thorough EDA on various attributes, unearthing valuable insights to aid in churn prevention.</li>
 
-Cluster Formation:
-Form clusters using attributes like director, cast, country, genre, rating, and description. Tokenize, preprocess, and vectorize attribute values using TF-IDF vectorizer.
+<li>Cluster Formation:
+Form clusters using attributes like director, cast, country, genre, rating, and description. Tokenize, preprocess, and vectorize attribute values using TF-IDF vectorizer.</li>
 
-Dimensionality Reduction:
-Reduce dataset dimensionality using Principal Component Analysis (PCA) to enhance performance.
+<li>Dimensionality Reduction:
+Reduce dataset dimensionality using Principal Component Analysis (PCA) to enhance performance.</li>
 
-Clustering Algorithms:
-Employ K-Means Clustering and Agglomerative Hierarchical Clustering algorithms to construct two distinct cluster types. Determine the optimal number of clusters using techniques like the Elbow method, Silhouette score, and Dendrogram.
+<li>Clustering Algorithms:
+Employ K-Means Clustering and Agglomerative Hierarchical Clustering algorithms to construct two distinct cluster types. Determine the optimal number of clusters using techniques like the Elbow method, Silhouette score, and Dendrogram.</li>
 
-Content-Based Recommender System:
-Develop a content-based recommender system using the cosine similarity matrix. This system analyzes the user's watched shows and generates personalized recommendations to enrich their experience.
+<li>Content-Based Recommender System:
+Develop a content-based recommender system using the cosine similarity matrix. This system analyzes the user's watched shows and generates personalized recommendations to enrich their experience.</li>
 
 EDA Findings
 Movies constitute approximately 69.1% of the content, with TV shows comprising around 30.9%.
