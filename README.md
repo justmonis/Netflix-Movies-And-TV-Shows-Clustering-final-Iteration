@@ -10,7 +10,7 @@ Photo by <a href="https://unsplash.com/@ventiviews?utm_content=creditCopyText&ut
 <h3 align="Left">
   <br>
  <h2>Problem Statement</h1>
-<br>
+
 The task at hand revolves around delving into the Netflix dataset to extract insights into the platform's content. This dataset encompasses details about both movies and TV shows, including their attributes and availability across different regions. By merging this dataset with external sources such as IMDB ratings and Rotten Tomatoes, we can unlock further valuable insights.
 <ul>
 <h2>Project Steps</h1>
@@ -42,12 +42,12 @@ Utilize text-based features to group similar content, paving the way for the dev
 <br>
 <br>
  <h2>Problem Statement:</h1>
-<br>
+
 This project centers on a dataset comprising TV shows and movies available on Netflix as of 2019, sourced from Flixable, a third-party Netflix search engine. Over recent years, Netflix has undergone a notable shift, witnessing a significant rise in TV shows while the number of movies has declined. The aim is to extract meaningful insights from this dataset and explore potential synergies with external datasets such as IMDB ratings and Rotten Tomatoes.
 
   <br>
  <h2>Project Summary</h1>
-<br>
+
 The aim of this project is to analyze a dataset containing TV shows and movies available on Netflix as of 2019, obtained from Flixable, a third-party Netflix search engine. The dataset consists of 7,787 rows and 12 columns, with no duplicate entries. However, several features exhibit missing values. It provides crucial information about content types (TV show or movie), titles, directors, casts, production countries, Netflix addition dates, release dates, durations, ratings, and descriptions.
 
 The project follows a structured approach, outlined below:
